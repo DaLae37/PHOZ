@@ -2,29 +2,15 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    >
-
-    <LinearLayout
-        android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/profile_setting"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="@string/Setting"
         android:layout_centerInParent="true"
-        android:gravity="center"
-        android:orientation="vertical">
+        />
 
-        <Button
-            android:id="@+id/korea_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="30dp"
-            android:text="@string/Korea"/>
-        <Button
-            android:id="@+id/russia_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="30dp"
-            android:text="@string/Russia"/>
-    </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -32,35 +18,35 @@
         android:background="#FFF2CC"
         >
         <Button
-            android:id="@+id/main_search"
+            android:id="@+id/profile_search"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_margin="10dp"
             android:background="@drawable/search"
             android:layout_weight="1"/>
         <Button
-            android:id="@+id/main_location"
+            android:id="@+id/profile_location"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_margin="10dp"
             android:background="@drawable/location"
             android:layout_weight="1"/>
         <Button
-            android:id="@+id/main_main"
+            android:id="@+id/profile_main"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_margin="10dp"
             android:background="@drawable/main"
             android:layout_weight="1"/>
         <Button
-            android:id="@+id/main_profile"
+            android:id="@+id/profile_profile"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_margin="10dp"
             android:background="@drawable/profile"
             android:layout_weight="1"/>
         <Button
-            android:id="@+id/main_camera"
+            android:id="@+id/profile_camera"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_margin="10dp"

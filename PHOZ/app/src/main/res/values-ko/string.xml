@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PHOZ</string>
+    <string name="Korean">한국어</string>
+    <string name="Korea">한국</string>
+    <string name="Russian">러시아어</string>
+    <string name="Russia">러시아</string>
+    <string name="Setting">설정</string>
+</resources>
