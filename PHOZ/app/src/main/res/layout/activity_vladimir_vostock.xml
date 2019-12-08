@@ -1,9 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".VladimirVostockActivity">
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+    android:gravity="center"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/arbat_button"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="@string/ArbatStreet"/>
+            <Button
+                android:id="@+id/marine_button"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="@string/MarinePark"/>
+            <Button
+                android:id="@+id/carousel_button"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="@string/CarouselAmusementPark"/>
+            <Button
+                android:id="@+id/eagle_button"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="@string/EagleObservatory"/>
+            <Button
+                android:id="@+id/truimph_button"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="@string/TriumphalArch"/>
+            <Button
+                android:id="@+id/folkopsky_button"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="@string/FolklopskyCathedral"/>
+            <Button
+                android:id="@+id/vladivostok_button"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="@string/VladivostokStation"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

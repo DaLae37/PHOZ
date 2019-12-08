@@ -17,7 +17,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".PeterhofActivity"></activity>
+        <activity android:name=".VladivostokStationActivity"></activity>
+        <activity android:name=".FolklopskyCathedralActivity" />
+        <activity android:name=".TriumphalArchActivity" />
+        <activity android:name=".EagleObservatoryActivity" />
+        <activity android:name=".CarouselAmusementParkActivity" />
+        <activity android:name=".MarineParkActivity" />
+        <activity android:name=".ArbatStreetActivity" />
+        <activity android:name=".PeterhofActivity" />
         <activity android:name=".HermitageMuseumActivity" />
         <activity android:name=".MariinskyTheatreActivity" />
         <activity android:name=".StIsaacCathedralActivity" />
