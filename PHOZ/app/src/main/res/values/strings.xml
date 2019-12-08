@@ -8,9 +8,9 @@
     <string name="SaintPetersburg">상트 뻬쩨르부르크</string>
     <string name="PeterhofPalace">여름궁전</string>
     <string name="BusinessTime">운영시간</string>
-    <string name="PerterhofPalaceBT">월, 수, 목, 금, 토, 일요일 10:00~21:30</string>
+    <string name="PeterhofPalaceBT">월, 수, 목, 금, 토, 일요일 10:00~21:30</string>
     <string name="Address">주소</string>
-    <string name="PerterhofPalaceAD">набережная канала Грибоедова, 2Б, литер А, Санкт-Петербург, Россия</string>
+    <string name="PeterhofPalaceAD">набережная канала Грибоедова, 2Б, литер А, Санкт-Петербург, Россия</string>
     <string name="PeterhofPalaceEX">상트페테르부르크에서 약 30㎞ 떨어진 핀란드만 해변가에 위치하고 있다. 표트르 대제가 파티 장소로 쓰기 위해 만든 것으로, 당시 러시아 제국의 위엄과 황제의 권위를 과시하기 위한 목적이었다. 러시아와 유럽 최고 건축가들과 예술가들이 총동원되어, 20여 개의 궁전과 140개의 화려한 분수, 7개의 아름다운 공원이 만들어졌다. 현재 박물관으로 사용 중인 여름궁전 1층에는 표트르 대제의 응접실과 서재, 침실 등이 있으며 2층에는 왕실 대대로 내려오는 가구와 도자기들이 전시되어 있다.</string>
     <string name="ChristRevivalCathedral">그리스도 부활 성당</string>
     <string name="ChristRevivalCathedralBT">월, 화, 목~일요일 10:30~18:00</string>

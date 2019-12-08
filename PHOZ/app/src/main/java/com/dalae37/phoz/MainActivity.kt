@@ -26,6 +26,8 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
+        korea_button.setOnClickListener{view->changeActivity(Intent(applicationContext, KoreaActivity::class.java))}
+        russia_button.setOnClickListener{view->changeActivity(Intent(applicationContext, RussiaActivity::class.java))}
         main_search.setOnClickListener{view->changeActivity(Intent(applicationContext, SearchActivity::class.java))}
         main_location.setOnClickListener{view->changeActivity(Intent(applicationContext, LocationActivity::class.java))}
         main_main.setOnClickListener{view->changeActivity(Intent(applicationContext, MainActivity::class.java))}
