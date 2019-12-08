@@ -15,53 +15,59 @@
             android:gravity="center"
             android:orientation="vertical">
             <Button
-                android:id="@+id/peterhofpalace_button"
+                android:id="@+id/redsquare_button"
                 android:layout_width="250dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="15dp"
-                android:text="@string/PeterhofPalace"/>
+                android:text="@string/RedSquare"/>
             <Button
-                android:id="@+id/revival_button"
+                android:id="@+id/basili_button"
                 android:layout_width="250dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="15dp"
-                android:text="@string/ChristRevivalCathedral"/>
+                android:text="@string/BasilicaCathedral"/>
             <Button
-                android:id="@+id/kazan_button"
+                android:id="@+id/zarajie_button"
                 android:layout_width="250dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="15dp"
-                android:text="@string/KazanCathedral"/>
+                android:text="@string/ZarajiePark"/>
             <Button
-                android:id="@+id/horseman_button"
+                android:id="@+id/gum_button"
                 android:layout_width="250dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="15dp"
-                android:text="@string/BronzeHorseman"/>
+                android:text="@string/GumDepartmentStore"/>
             <Button
-                android:id="@+id/issac_button"
+                android:id="@+id/city_button"
                 android:layout_width="250dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="15dp"
-                android:text="@string/StIsaacCathedral"/>
+                android:text="@string/MoscowCity"/>
             <Button
-                android:id="@+id/mariinsky_button"
+                android:id="@+id/marbat_button"
                 android:layout_width="250dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="15dp"
-                android:text="@string/MariinskyTheatre"/>
+                android:text="@string/MArbatStreet"/>
             <Button
-                android:id="@+id/hermitage_button"
+                android:id="@+id/christ_button"
                 android:layout_width="250dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="15dp"
-                android:text="@string/HermitageMuseum"/>
+                android:text="@string/CathedralChristSavior"/>
             <Button
-                android:id="@+id/peterhof_button"
+                android:id="@+id/bolshoi_button"
                 android:layout_width="250dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="15dp"
-                android:text="@string/Peterhof"/>
+                android:text="@string/BolshoiTheatre"/>
+            <Button
+                android:id="@+id/gorky_button"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="@string/GorkyPark"/>
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

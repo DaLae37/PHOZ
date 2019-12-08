@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/colomenskaya_button"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="@string/Colomenskaya"/>
+            <Button
+                android:id="@+id/yigzino_button"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="@string/Yigzino"/>
+            <Button
+                android:id="@+id/sparrow_button"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="@string/SparrowHill"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -16,43 +16,43 @@
             android:orientation="vertical">
             <Button
                 android:id="@+id/arbat_button"
-                android:layout_width="150dp"
+                android:layout_width="250dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="15dp"
                 android:text="@string/ArbatStreet"/>
             <Button
                 android:id="@+id/marine_button"
-                android:layout_width="150dp"
+                android:layout_width="250dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="15dp"
                 android:text="@string/MarinePark"/>
             <Button
                 android:id="@+id/carousel_button"
-                android:layout_width="150dp"
+                android:layout_width="250dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="15dp"
                 android:text="@string/CarouselAmusementPark"/>
             <Button
                 android:id="@+id/eagle_button"
-                android:layout_width="150dp"
+                android:layout_width="250dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="15dp"
                 android:text="@string/EagleObservatory"/>
             <Button
                 android:id="@+id/truimph_button"
-                android:layout_width="150dp"
+                android:layout_width="250dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="15dp"
                 android:text="@string/TriumphalArch"/>
             <Button
                 android:id="@+id/folkopsky_button"
-                android:layout_width="150dp"
+                android:layout_width="250dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="15dp"
                 android:text="@string/FolklopskyCathedral"/>
             <Button
                 android:id="@+id/vladivostok_button"
-                android:layout_width="150dp"
+                android:layout_width="250dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="15dp"
                 android:text="@string/VladivostokStation"/>
