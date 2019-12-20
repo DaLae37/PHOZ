@@ -17,11 +17,40 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <uses-library android:name="org.apache.http.legacy" android:required="false" />
+        <activity android:name=".KyungbokActivity"></activity>
+        <activity android:name=".KyungheeActivity" />
+        <activity android:name=".DeoksuActivity" />
+        <activity android:name=".ChangdeokActivity" />
+        <activity android:name=".ChangkyungActivity" />
+        <activity android:name=".BuckcheonActivity" />
+        <activity android:name=".InsaActivity" />
+        <activity android:name=".IkseonActivity" />
+        <activity android:name=".JeonjuActivity" />
+        <activity android:name=".DokdoActivity" />
+        <activity android:name=".UlsanActivity" />
+        <activity android:name=".InjaeActivity" />
+        <activity android:name=".TaeahnActivity" />
+        <activity android:name=".RiverActivity" />
+        <activity android:name=".HwasungActivity" />
+        <activity android:name=".SaemangeumActivity" />
+        <activity android:name=".PohangActivity" />
+        <activity android:name=".MokpoActivity" />
+        <activity android:name=".JungranActivity" />
+        <activity android:name=".GangwondoActivity" />
+        <activity android:name=".YangjuActivity" />
+        <activity android:name=".NatureActivity" />
+        <activity android:name=".TraditionalActivity" />
+        <activity android:name=".KWaveActivity" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyAkErjxqSUbkFYhf98-QUDOjLKXecleIVs"/>
-        <activity android:name=".SparrowHillActivity"></activity>
+            android:value="AIzaSyAkErjxqSUbkFYhf98-QUDOjLKXecleIVs" />
+
+        <activity android:name=".SparrowHillActivity" />
         <activity android:name=".YigzinoActivity" />
         <activity android:name=".ColomenskayaActivity" />
         <activity android:name=".GorkyParkActivity" />
