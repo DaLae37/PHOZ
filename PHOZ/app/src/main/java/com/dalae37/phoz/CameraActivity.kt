@@ -210,6 +210,41 @@ class CameraActivity : AppCompatActivity() {
         camera_profile.setOnClickListener{view->changeActivity(Intent(applicationContext, ProfileActivity::class.java))}
         camera_camera.setOnClickListener{view->changeActivity(Intent(applicationContext, CameraActivity::class.java))}
 
+        pos1.setOnClickListener{view->camera_pos.setImageResource(R.drawable.pos1)}
+        pos2.setOnClickListener{view->camera_pos.setImageResource(R.drawable.pos2)}
+        pos3.setOnClickListener{view->camera_pos.setImageResource(R.drawable.pos3)}
+        pos4.setOnClickListener{view->camera_pos.setImageResource(R.drawable.pos4)}
+        pos5.setOnClickListener{view->camera_pos.setImageResource(R.drawable.pos5)}
+        pos6.setOnClickListener{view->camera_pos.setImageResource(R.drawable.pos6)}
+        pos7.setOnClickListener{view->camera_pos.setImageResource(R.drawable.pos7)}
+        pos8.setOnClickListener{view->camera_pos.setImageResource(R.drawable.pos8)}
+        pos9.setOnClickListener{view->camera_pos.setImageResource(R.drawable.pos9)}
+        pos10.setOnClickListener{view->camera_pos.setImageResource(R.drawable.pos10)}
+        pos11.setOnClickListener{view->camera_pos.setImageResource(R.drawable.pos11)}
+        pos12.setOnClickListener{view->camera_pos.setImageResource(R.drawable.pos12)}
+        pos13.setOnClickListener{view->camera_pos.setImageResource(R.drawable.pos13)}
+        pos14.setOnClickListener{view->camera_pos.setImageResource(R.drawable.pos14)}
+        pos15.setOnClickListener{view->camera_pos.setImageResource(R.drawable.pos15)}
+        pos16.setOnClickListener{view->camera_pos.setImageResource(R.drawable.pos16)}
+        pos17.setOnClickListener{view->camera_pos.setImageResource(R.drawable.pos17)}
+        pos18.setOnClickListener{view->camera_pos.setImageResource(R.drawable.pos18)}
+        pos19.setOnClickListener{view->camera_pos.setImageResource(R.drawable.pos19)}
+        pos20.setOnClickListener{view->camera_pos.setImageResource(R.drawable.pos20)}
+        pos21.setOnClickListener{view->camera_pos.setImageResource(R.drawable.pos21)}
+        pos22.setOnClickListener{view->camera_pos.setImageResource(R.drawable.pos22)}
+        pos23.setOnClickListener{view->camera_pos.setImageResource(R.drawable.pos23)}
+        pos24.setOnClickListener{view->camera_pos.setImageResource(R.drawable.pos24)}
+        pos25.setOnClickListener{view->camera_pos.setImageResource(R.drawable.pos25)}
+        pos26.setOnClickListener{view->camera_pos.setImageResource(R.drawable.pos26)}
+        pos27.setOnClickListener{view->camera_pos.setImageResource(R.drawable.pos27)}
+        pos28.setOnClickListener{view->camera_pos.setImageResource(R.drawable.pos28)}
+        pos29.setOnClickListener{view->camera_pos.setImageResource(R.drawable.pos29)}
+        pos30.setOnClickListener{view->camera_pos.setImageResource(R.drawable.pos30)}
+        pos31.setOnClickListener{view->camera_pos.setImageResource(R.drawable.pos31)}
+        pos32.setOnClickListener{view->camera_pos.setImageResource(R.drawable.pos32)}
+        pos33.setOnClickListener{view->camera_pos.setImageResource(R.drawable.pos33)}
+        pos34.setOnClickListener{view->camera_pos.setImageResource(R.drawable.pos34)}
+
         mSensorManager = getSystemService(Context.SENSOR_SERVICE) as SensorManager
         mAccelerometer = mSensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER)
         mMagnetometer = mSensorManager.getDefaultSensor(Sensor.TYPE_MAGNETIC_FIELD)
@@ -252,37 +287,6 @@ class CameraActivity : AppCompatActivity() {
         return true
     }
 
-    private fun setConnection(){
-        val url = URL("http://35.221.78.179:5000/calc")
-
-        Thread{
-            with(url.openConnection() as HttpURLConnection) {
-                requestMethod = "POST"
-
-                var wr = OutputStreamWriter(outputStream)
-                wr.write("a : 90")
-                wr.flush()
-
-                when (responseCode) {
-                    200 -> {
-                        BufferedReader(InputStreamReader(inputStream)).use {
-                            val response = StringBuffer()
-                            var inputLine = it.readLine()
-                            while (inputLine != null) {
-                                response.append(inputLine)
-                                inputLine = it.readLine()
-                            }
-                            it.close()
-                            Log.i("결과", response.toString())
-                        }
-                    }
-                    else -> {
-                        Log.e("결과", "연결 실패!")
-                    }
-                }
-            }
-        }.start()
-    }
     private fun initSurfaceView() {
         var displayMetrics = DisplayMetrics()
         windowManager.defaultDisplay.getMetrics(displayMetrics)
@@ -376,6 +380,7 @@ class CameraActivity : AppCompatActivity() {
 
     private fun updateTextureViewSize(viewWidth : Int, viewHeight : Int) {
         surfaceView.layoutParams = FrameLayout.LayoutParams(viewWidth, viewHeight)
+        camera_pos.layoutParams = FrameLayout.LayoutParams(viewWidth, viewHeight)
     }
 
     private class SaveImageTask : AsyncTask<Bitmap, Void, Void>(){
